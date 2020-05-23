@@ -66,7 +66,7 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = true
 
-  host = 'fathomless-fortress-56747.herokuapp.com'
+  host = 'morumolu-railstutorial'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
